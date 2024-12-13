@@ -1,4 +1,4 @@
-#ClusterIP
+#ClusterIP#
 apiVersion: v1
 kind: Service
 metadata:
@@ -12,7 +12,7 @@ spec:
       targetPort: 8080
   type: ClusterIP
 
-#NodeIP
+#NodeIP#
 apiVersion: v1
 kind: Service
 metadata:
@@ -28,7 +28,7 @@ spec:
       nodePort: 30007  # Optional, you can let Kubernetes assign this
   type: NodePort
 
-#loadbalancer
+#loadbalancer#
 apiVersion: v1
 kind: Service
 metadata:
