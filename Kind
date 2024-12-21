@@ -1,0 +1,11 @@
+> sudo su -
+# Download the latest version (you can replace the version number if needed)
+wget https://github.com/kubernetes-sigs/kind/releases/download/v0.18.0/kind-linux-amd64 -O /usr/local/bin/kind
+
+> sudo chmod +x /usr/local/bin/kind
+
+> kind --version
+
+# default kind cluster created
+> kind create cluster 
+
