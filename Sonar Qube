@@ -1,0 +1,14 @@
+sudo su -
+
+adduser sonarqube
+password & information
+
+sudo su - sonarqube (Switched)
+logout
+root@ip-172-31-36-73:~# apt install unzip
+sudo su - sonarqube (Switched)
+
+
+
+
+
